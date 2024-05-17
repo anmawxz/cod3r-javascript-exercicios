@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 import Pai from './components/Pai'
 import Filho from './components/Filho'
 import Saudacao from './components/Saudacao'
-import { BoaTarde, BoaNoite} from './components/Multiplos'
+import Multi, { BoaNoite} from './components/Multiplos'
 import BomDia from './components/BomDia'
 
 // ReactDOM.render(<h1>React 2</h1>, document.getElementById('root')) //depreciado
@@ -24,7 +24,7 @@ root.render(
     {/* <BomDia nome="Gustavo"/> */}
 
 
-    <BoaTarde nome="Marildes"/>
+    <Multi.BoaTarde nome="Marildes"/>
     <BoaNoite nome="Marina"/>
   </div>
 );
