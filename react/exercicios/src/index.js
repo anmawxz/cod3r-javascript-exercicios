@@ -1,9 +1,20 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from "react";
+import ReactDOM from "react-dom";
 
-// ReactDOM.render(<h1>React 2</h1>, document.getElementById('root'))
+import Pai from './components/Pai'
+import Filho from './components/Filho'
 
-const rootElement = document.getElementById('root');
+// ReactDOM.render(<h1>React 2</h1>, document.getElementById('root')) //depreciado
+
+const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
 
-root.render(<h1>React 2</h1>);
+root.render(
+  <div>
+    <Pai nome="Paulo" sobrenome="Silva">
+      <Filho nome="Pedro" />
+      <Filho nome="Paulo" />
+      <Filho nome="Carla" />
+    </Pai>
+  </div>
+);
