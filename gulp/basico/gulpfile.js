@@ -13,7 +13,8 @@ const antes2 = (cb) => {
 
 function copiar(cb) {
   gulp
-    .src(["pastaA/arquivo1.txt", "pastaA/arquivo2.txt"])
+    // .src(["pastaA/arquivo1.txt", "pastaA/arquivo2.txt"])
+    .src('pastaA/**/*.txt')
     // .pipe(imagePelaMetade())
     // .pipe(imageEmPretoEBranco())
     // .pipe(transformacaoA())
