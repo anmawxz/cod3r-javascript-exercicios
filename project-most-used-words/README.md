@@ -2,13 +2,15 @@
 
 Aplicação Desktop com interface gráfica que processa arquivos de legendas (.srt) fornecidos pelo usuário e exibe a quantidade de vezes que cada palavra apareceu, em ordem decrescente e personalizável.
 
+
 Tecnologias:
 + Electron JS
 + Vue JS
 + Javascript
 
+Preview:
 
-
+![alt text](image.png)
 
 ## Project setup
 ```
